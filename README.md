@@ -16,8 +16,8 @@ On Mac:
 
 5. Add these to your `~/.profile`:
 
-    eval "$(pyenv init -)"
-    eval "$(pyenv virtualenv-init -)"
+        eval "$(pyenv init -)"
+        eval "$(pyenv virtualenv-init -)"
 
 6. Restart your shell
 
@@ -33,4 +33,4 @@ On Mac:
 
 12. Run `test-pyspark.py`:
 
-    ~/YOUR_SPARK_HOME/bin/spark-submit test-pyspark.py
+        ~/YOUR_SPARK_HOME/bin/spark-submit test-pyspark.py
